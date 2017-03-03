@@ -32,6 +32,7 @@
 		            <tasks>
 		               <echo>test phase</echo>
 		            </tasks>
+    				
 		         </configuration>
 		      </execution> 
 		      </executions> 
