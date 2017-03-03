@@ -6,7 +6,7 @@ public class BankAccount {
 	private boolean isOverdraft = false;
 	
 	public boolean deposit(double amount) {
-		if (amount <  0.00) { 
+		if (amount >=  0.00) { 
 			balance = balance - amount;
 			if(balance > 0.00){
 				isOverdraft = false;
