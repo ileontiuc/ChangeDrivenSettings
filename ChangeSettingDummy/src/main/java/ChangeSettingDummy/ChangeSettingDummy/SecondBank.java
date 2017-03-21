@@ -18,7 +18,7 @@ public class SecondBank {
 		} 
 	} 
 	
-	
+	/*
 	public boolean withdraw(double amount) {
 		if (amount <= 0){ 
 			 System.out.println("amount cannot be negative");
@@ -35,6 +35,6 @@ public class SecondBank {
 		}
 		return true;
 	} 
-	
+	*/
 	
 }
