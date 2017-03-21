@@ -9,7 +9,7 @@ public class BankAccount {
 		if (amount >=  0.00) { 
 			balance = balance - amount;
 			if(balance > 0.00){
-				isOverdraft = false;
+				isOverdraft = true;
 			}
 			return true; 
 		}else{
