@@ -26,7 +26,7 @@ public class BehaviourChangeTest {
 	@Test
 	public void afterMutation() {
 		System.out.println("running after mutation"); 
-		BankAccount acc = new BankAccount();
+		SecondBank acc = new SecondBank();
 		acc.deposit(10.00); 
 		boolean result = acc.withdraw(10.00);
 		Assert.assertEquals(result, true);
@@ -35,7 +35,7 @@ public class BehaviourChangeTest {
 	@Test
 	public void flagTestSequence() {
 		System.out.println("running flag test sequence"); 
-		BankAccount acc = new BankAccount();
+		SecondBank acc = new SecondBank();
 		acc.deposit(10.00); 
 		acc.withdraw(20.00);  
 		acc.deposit(50.00);

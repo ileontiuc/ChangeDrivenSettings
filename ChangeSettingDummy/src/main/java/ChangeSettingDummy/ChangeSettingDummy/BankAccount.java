@@ -8,8 +8,8 @@ public class BankAccount {
 	public boolean deposit(double amount) {
 		if (amount >=  0.00) { 
 			balance = balance - amount;
-			if(balance > 0.00){
-				isOverdraft = true;
+			if(balance < 0.00){
+				isOverdraft = false;
 			}
 			return true; 
 		}else{
